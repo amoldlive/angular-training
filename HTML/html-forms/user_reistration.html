@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="this is an awesome website" />
+    <title>My First Web</title>
+</head>
+
+<body>
+
+    <form action="" target="_blank" method="get" autocomplete="on">
+        <fieldset>
+            <legend>User Registration Form</legend>
+
+            <label>User Name</label>
+            <input type="text" autofocus/>
+
+            <br><br>
+
+            <label>Password</label>
+            <input type="password" />
+
+            <br><br>
+
+            <label>Gender</label>
+            <input type="radio" value="male"><label>male</label>
+            <input type="radio" value="female"><label>female</label>
+
+            <br><br>
+
+            <label>Hobbies</label>
+            <input type="checkbox"><label>Sport</label>
+            <input type="checkbox"><label>Cooking</label>
+            <input type="checkbox"><label>Photography</label>
+            <input type="checkbox"><label>WeightLifting</label>
+
+            <br><br>
+
+            <label>Address</label>
+            <textarea placeholder="Type address Here"></textarea>
+
+            <br><br>
+
+            <label>Select Car</label>
+            <select id="cars" name="cars" size="1">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+
+            <br><br>
+
+            <label>Select Showroom</label>
+            <input list="showroom">
+            <datalist id="showroom">
+                <option value="Seva" />
+                <option value="Arya cars" />
+                <option value="Tirupati Cars" />
+                <option value="Agend Cars" />
+            </datalist>
+            </input>
+
+            <br><br>
+
+            <label>Select Date</label>
+            <input type="date" value="" min="2000-01-02" />
+
+            <br><br>
+
+            <label>Select Date Time</label>
+            <input type="datetime-local" value="" />
+
+            <br><br>
+
+            <label for="week">Select a week:</label>
+            <input type="week" id="week" name="week">
+
+            <br><br>
+
+            <label>Select Month</label>
+            <input type="month" value="" />
+
+            <br><br>
+
+            <label for="appt">Select a time:</label>
+            <input type="time" id="appt" name="appt">
+
+            <br><br>
+
+            <label>Enter Email</label>
+            <input type="email" />
+
+            <br><br>
+
+            <label>Select File</label>
+            <input type="file" />
+
+            <br><br>
+
+            <label>Select File</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="20">
+
+            <br><br>
+
+            <label>Select Range</label>
+            <input type="range" id="quantity" name="quantity" min="0" max="100" value="10">
+
+            <br><br>
+
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+
+            <br><br>
+
+            <label>Readonly Field</label>
+            <input type="text" value="John" readonly>
+
+            <br><br>
+
+            <label>Disabled Field</label>
+            <input type="text" value="John" disabled>
+
+            <br><br>
+
+
+            <input type="submit">
+            <input type="submit" formaction="/action_page2.php" formmethod="get" formtarget="_blank" value="Submit as Admin">
+        
+        </form>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
